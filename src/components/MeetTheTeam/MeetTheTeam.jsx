@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { slides } from "./slideData";
 
+import nextArrow from "../../assets/meettheteam/next-arrow.png";
+import prevArrow from "../../assets/meettheteam/prev-arrow.png";
+
 function NextArrow({ onClick, currentSlide, slideCount }) {
     
   // Always show next arrow except on the last slide
@@ -15,7 +18,7 @@ function NextArrow({ onClick, currentSlide, slideCount }) {
         className="absolute top-[30vh] right-[8vw] w-[4.4vw] h-[7.8vh] cursor-pointer flex items-center justify-center hover:opacity-80 transition-opacity z-10"
       >
         <img
-          src="src/assets/meettheteam/next-arrow.png"
+          src={nextArrow}
           alt="Next"
           className="w-full h-full object-contain"
           style={{ filter: "drop-shadow(0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5))" }}
@@ -32,7 +35,7 @@ function NextArrow({ onClick, currentSlide, slideCount }) {
       className="absolute top-[30vh] right-[3vw] w-[4.4vw] h-[7.8vh] cursor-pointer flex items-center justify-center hover:opacity-80 transition-opacity z-10"
     >
       <img
-        src="src/assets/meettheteam/next-arrow.png"
+        src={nextArrow}
         alt="Next"
         className="w-full h-full object-contain"
         style={{ filter: "drop-shadow(0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5))" }}
@@ -51,7 +54,7 @@ function PrevArrow({ onClick, currentSlide }) {
       className="absolute top-[30vh] left-[8vw] w-[4.4vw] h-[7.8vh] cursor-pointer flex items-center justify-center hover:opacity-80 transition-opacity z-10"
     >
       <img
-        src="src/assets/meettheteam/prev-arrow.png"
+        src={prevArrow}
         alt="Previous"
         className="w-full h-full object-contain"
         style={{ filter: "drop-shadow(0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5))" }}
@@ -65,7 +68,7 @@ function PrevArrow({ onClick, currentSlide }) {
       className="absolute top-[30vh] left-[2vw] w-[4vw] h-[7.8vh] cursor-pointer flex items-center justify-center hover:opacity-80 transition-opacity z-10"
     >
       <img
-        src="src/assets/meettheteam/prev-arrow.png"
+        src={prevArrow}
         alt="Previous"
         className="w-full h-full object-contain"
         style={{ filter: "drop-shadow(0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5))" }}
