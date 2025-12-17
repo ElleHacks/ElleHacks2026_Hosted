@@ -1,0 +1,41 @@
+.aboutUsSection {
+    position: relative; 
+    width: 100vw;
+    background: linear-gradient(to bottom, #d1a996, #bd7777);
+    min-height: 95vh;   
+    padding-left: 2.5rem;   
+    padding-right: 2.5rem;
+    padding-top: 10.5rem;  
+    padding-bottom: 15.5rem;
+
+}
+.aboutUsSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/location/texture.png'); 
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: overlay; 
+    opacity: 0.73; 
+    z-index: 5;
+}
+
+/* sm:px-35 */
+@media (min-width: 640px) {
+   .aboutUsSection {
+    padding-left: 8.75rem;  /* 35 * 0.25rem = 8.75rem */
+    padding-right: 8.75rem;
+  }
+}
+
+/* lg:px-55 */
+@media (min-width: 1024px) {
+   .aboutUsSection {
+    padding-left: 13.75rem; /* 55 * 0.25rem = 13.75rem */
+    padding-right: 13.75rem;
+  }
+}
