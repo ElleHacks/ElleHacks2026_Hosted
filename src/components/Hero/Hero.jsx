@@ -42,10 +42,13 @@ const Hero = () => {
       <div className={styles.mainContent}>
         <h1 className={styles.title}>ElleHacks 2026</h1>
         <p className={styles.subtitle}>Jan 30 - Feb 1, 2026 . In-person event . MLH official Member</p>
-        
-        <div className={styles.ctaButton}>
-          <span className={styles.ctaText}>Interested in Participating?</span>
-        </div>
+
+        <a
+          href="https://ellehacksdash.com/#/login"
+          className={styles.ctaButton}
+        >
+          <span className={styles.ctaText}>Apply Now!</span>
+        </a>
 
         <div className={styles.decorations}>
           <img src={candle} alt="Candle" className={styles.Candle} draggable="false" onContextMenu={(e) => e.preventDefault()} />
