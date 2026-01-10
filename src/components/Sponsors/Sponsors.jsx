@@ -43,6 +43,7 @@ import nordprotectImg from '../../assets/Sponsors/nordprotect.png';
 import nexosImg from '../../assets/Sponsors/nexos.png';
 import swbImg from '../../assets/Sponsors/SWBLogo.jpg';
 import girlguidesimg from '../../assets/Sponsors/girlguidesLogo.jpg';
+import cppimg from '../../assets/Sponsors/cpplogo.jpg';
 
 const Sponsors = () => {
   return (
@@ -63,22 +64,25 @@ const Sponsors = () => {
           {/* BRONZE */}
           <div className={styles['row-bronze']}>
             <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
-              <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer"><img src={cseImg} alt="CSE Logo" /></a>
-            </div>
-            <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
-              <a href="https://www.kpmpower.com/products?gad_source=1&gad_campaignid=1945954542&gbraid=0AAAAACwaK6AiiZylxSJDBUSu0OP7nPLYJ&gclid=CjwKCAiA64LLBhBhEiwA-Pxgu4i-dgyze2bK9KvpGWBsULXMABsnJxx_xHYs72Az1GBB92__Zt2_jBoCV1kQAvD_BwE" target="_blank" rel="noreferrer"><img src={kpmImg} alt="KPM Logo" /></a>
-            </div>
-            <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
               <a href="https://www.ubisoft.com/en-ca" target="_blank" rel="noreferrer"><img src={ubisoftImg} alt="Ubisoft Logo" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
               <a href="https://www.shopify.com/ca/ppc/online-store?term=shopify&adid=641903051274&campaignid=15436644442&branded_enterprise=1&BOID=brand&utm_medium=cpc&utm_source=google&gad_source=1&gad_campaignid=15436644442&gbraid=0AAAAADp4t0qDIeLXaRoLjR_Ho_7POHvgj&gclid=CjwKCAiA64LLBhBhEiwA-Pxguzkzt9GC616NZpD0wOwVuGZLe4lrQtJW__5o_XfGx588gIx-oyi7QxoCVrQQAvD_BwE" target="_blank" rel="noreferrer"><img src={shopifyImg} alt="Shopify Logo" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
+              <a href="https://www.kpmpower.com/products?gad_source=1&gad_campaignid=1945954542&gbraid=0AAAAACwaK6AiiZylxSJDBUSu0OP7nPLYJ&gclid=CjwKCAiA64LLBhBhEiwA-Pxgu4i-dgyze2bK9KvpGWBsULXMABsnJxx_xHYs72Az1GBB92__Zt2_jBoCV1kQAvD_BwE" target="_blank" rel="noreferrer"><img src={kpmImg} alt="KPM Logo" /></a>
+            </div>
+            <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
+              <a href="https://www.cse-cst.gc.ca/en" target="_blank" rel="noreferrer"><img src={cseImg} alt="CSE Logo" /></a>
+            </div>
+            <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
               <a href="https://www.canada.ca/en.html" target="_blank" rel="noreferrer"><img src={experienceImg} alt="Experience Ventures Logo" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
               <a href="https://www.canada.ca/en.html" target="_blank" rel="noreferrer"><img src={canadaImg} alt="Government of Canada Logo" /></a>
+            </div>
+            <div className={`${styles['sponsor-card']} ${styles['large']} ${styles['bronze']}`}>
+              <a href="https://www.fdmgroup.com/en-ca/" target="_blank" rel="noreferrer"><img src={FDMimg} alt="FDM img" /></a>
             </div>
           </div>
 
@@ -142,7 +146,7 @@ const Sponsors = () => {
               <a href="https://www.girlguides.ca/web/" target="_blank" rel="noreferrer"><img src={girlguidesimg} alt="Girl Guides img" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['community']}`}>
-              <a href="https://www.fdmgroup.com/en-ca/" target="_blank" rel="noreferrer"><img src={FDMimg} alt="FDM img" /></a>
+              <a href="https://www.cppinvestments.com/?utm_source=programmatic" target="_blank" rel="noreferrer"><img src={cppimg} alt="CPP Investments img" /></a>
             </div>
           </div>
           <p className={styles['sponsors-text']}>More coming soon...</p>
