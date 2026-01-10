@@ -30,7 +30,7 @@ const FAQ = () => {
         {
           question: "Who can apply?",
           answer:
-            "We welcome all students from underrepresented gender groups (i.e., women and gender-diverse students) who either live or attend school in North America. Only students who are currently enrolled at a high school or college/university, or have graduated within the past 12 months, are eligible to attend. You must bring a valid student or government-issued ID card for admission."
+            "We welcome all students from underrepresented gender groups (i.e., women and gender-diverse students) who either live or attend school in North America. Only students who are currently enrolled in college/university, or have graduated within the past 12 months, are eligible to attend. You must bring a valid student or government-issued ID card for admission."
         },
         {
           question: "Is ElleHacks in-person this year?",
