@@ -292,6 +292,21 @@ html, body, #root, .sponsors-container {
     max-height: 84%;
   }
 
+  .row-bronze .sponsor-card {
+    flex: 0 0 100%;    
+    min-width: 65%;
+    max-width: 65%;
+
+    width: 70vw;        
+    margin: 0 auto;     
+  }
+
+  .row-community .sponsor-card {
+    flex: 0 1 34vw;
+    min-width: 34vw;
+    max-width: 34vw;
+  }
+
   .xlarge {
     flex: 0 1 90vw;
     min-width: 70vw;
