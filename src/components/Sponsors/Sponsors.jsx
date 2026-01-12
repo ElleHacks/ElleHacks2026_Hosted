@@ -21,6 +21,7 @@ import githubLogoImg from '../../assets/Sponsors/github-logo.png';
 import purebuttonsImg from '../../assets/Sponsors/purebuttons.png';
 
 // Community Sponsors
+import porterimg from '../../assets/Sponsors/PorterLogo.png';
 import incogniImg from '../../assets/Sponsors/incogni.png';
 import sailyImg from '../../assets/Sponsors/sailyLogo.png';
 import interninsiderImg from '../../assets/Sponsors/insider.png';
@@ -99,10 +100,13 @@ const Sponsors = () => {
           {/* COMMUNITY */}
           <div className={styles['row-community']}>
             <div className={`${styles['sponsor-card']} ${styles['community']}`}>
-              <a href="https://codecrafters.io/" target="_blank" rel="noreferrer"><img src={codecraftersImg} alt="CodeCrafters Logo" /></a>
+              <a href="https://www.flyporter.com/en-ca/" target="_blank" rel="noreferrer"><img src={porterimg} alt="Porter Logo" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['community']}`}>
-              <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={githubLogoImg} alt="Github Logo" /></a>
+              <a href="https://www.cppinvestments.com/?utm_source=programmatic" target="_blank" rel="noreferrer"><img src={cppimg} alt="CPP Investments img" /></a>
+            </div>
+            <div className={`${styles['sponsor-card']} ${styles['community']}`}>
+              <a href="https://codecrafters.io/" target="_blank" rel="noreferrer"><img src={codecraftersImg} alt="CodeCrafters Logo" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['community']}`}>
               <a href="https://gen.xyz/" target="_blank" rel="noreferrer"><img src={xyzImg} alt="XYZ. Logo" /></a>
@@ -156,7 +160,7 @@ const Sponsors = () => {
               <a href="https://www.girlguides.ca/web/" target="_blank" rel="noreferrer"><img src={girlguidesimg} alt="Girl Guides img" /></a>
             </div>
             <div className={`${styles['sponsor-card']} ${styles['community']}`}>
-              <a href="https://www.cppinvestments.com/?utm_source=programmatic" target="_blank" rel="noreferrer"><img src={cppimg} alt="CPP Investments img" /></a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={githubLogoImg} alt="Github Logo" /></a>
             </div>
           </div>
           <p className={styles['sponsors-text']}>More coming soon...</p>
