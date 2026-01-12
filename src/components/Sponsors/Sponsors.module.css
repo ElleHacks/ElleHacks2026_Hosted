@@ -69,7 +69,7 @@ html, body, #root, .sponsors-container {
   z-index: 10;
 }
 
-.row-gold,
+.row-gold, .row-silver,
 .row-bronze,
 .row-community {
   display: flex;
@@ -271,6 +271,12 @@ html, body, #root, .sponsors-container {
     flex: 0 1 70vw;
     min-width: 60vw;
     max-width: 75vw;
+  }
+
+  .qlarge {
+    flex: 0 1 70vw;
+    min-width: 64vw;
+    max-width: 44vw;
   }
 }
 
