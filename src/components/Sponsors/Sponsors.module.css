@@ -152,9 +152,6 @@ html, body, #root, .sponsors-container {
   max-width: 20vw;
 }
 
-.gold {}
-.bronze {}
-
 .sponsor-card:hover, .sponsor-card:focus-visible,
 .large:hover, .large:focus-visible,
 .qlarge:hover, .qlarge:focus-visible,
