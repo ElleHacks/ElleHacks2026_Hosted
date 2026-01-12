@@ -14,6 +14,7 @@ import canadaImg from '../../assets/Sponsors/GovOfCanadaLogo.webp';
 import experienceImg from '../../assets/Sponsors/ExperienceVenturesLogo.png';
 
 // Silver - york region
+import YorkRegionImg from '../../assets/Sponsors/YRLogo.png';
 
 // MLH Associated Sponsors
 import githubLogoImg from '../../assets/Sponsors/github-logo.png';
@@ -57,6 +58,15 @@ const Sponsors = () => {
             <div className={`${styles['sponsor-card']} ${styles['xlarge']} ${styles['gold']}`}>
               <a href="https://www.wealthsimple.com/en-ca?utm_source=google&utm_medium=performance&campaign_id=13076524258&adgroup_id=122608715656&ad_id=769675182122&keyword=wealth%20simple&gad_source=1&gad_campaignid=13076524258&gbraid=0AAAAADN8OOb3EcloUYB1cbBpqRFrQVCJ1&gclid=CjwKCAiA64LLBhBhEiwA-Pxgu1mts4l_ZIm5Aq0xS8RkcnlTczkYb4vmBLHdwN1-Xx6QxiJ6pVkvhxoCGLEQAvD_BwE" target="_blank" rel="noreferrer">
                 <img src={wealthsimpleImg} alt="Wealthsimple Logo" />
+              </a>
+            </div>
+          </div>
+
+          {/* Silver */}
+          <div className={styles['row-silver']}>
+            <div className={`${styles['sponsor-card']} ${styles['qlarge']} ${styles['silver']}`}>
+              <a href="https://www.york.ca/" target="_blank" rel="noreferrer">
+                <img src={YorkRegionImg} alt="York Region Logo" />
               </a>
             </div>
           </div>
