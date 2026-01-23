@@ -47,7 +47,7 @@ const Hero = () => {
           href="https://ellehacksdash.com/#/login"
           className={styles.ctaButton}
         >
-          <span className={styles.ctaText}>Apply Now!</span>
+          <span className={styles.ctaText}>Hacker Login</span>
         </a>
 
         <div className={styles.decorations}>

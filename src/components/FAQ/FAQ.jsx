@@ -62,6 +62,10 @@ const FAQ = () => {
         {
           question: "Can I submit a project I’ve used at another hackathon/school assignment/anywhere else?",
           answer: "No."
+        },
+        {
+          question: "MLH Code of Conduct",
+          answer: "https://github.com/MLH/mlh-policies/blob/main/code-of-conduct.md"
         }
       ];
 
