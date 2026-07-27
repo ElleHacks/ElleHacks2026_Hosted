@@ -24,8 +24,6 @@ function App() {
       <FAQ />
       <div id="location"></div>
       <Location />
-      <div id="meettheteam"></div>
-      <MeetTheTeam />
       <div id="contactus"></div>
       <ContactUs />
     </div>

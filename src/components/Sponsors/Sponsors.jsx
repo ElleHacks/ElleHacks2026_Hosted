@@ -51,7 +51,7 @@ const Sponsors = () => {
   return (
     <div className={styles['sponsors-container']}>
       <div className={styles['stage-content']}>
-        <h1 className={styles['sponsors-title']}>Our Sponsors</h1>
+        <h1 className={styles['sponsors-title']}>Last Years Sponsors</h1>
 
         <div className={styles['sponsors-grid']}>
           {/* GOLD (Top) */}
@@ -163,7 +163,6 @@ const Sponsors = () => {
               <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={githubLogoImg} alt="Github Logo" /></a>
             </div>
           </div>
-          <p className={styles['sponsors-text']}>More coming soon...</p>
         </div>
       </div>
 

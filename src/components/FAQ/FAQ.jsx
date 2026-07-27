@@ -15,7 +15,7 @@ const FAQ = () => {
         {
           question: "When and where is ElleHacks?",
           answer:
-            "ElleHacks will be hosted at York University (Keele Campus) in Toronto, Ontario, Canada on January 2026."
+            "ElleHacks will be hosted at York University (Keele Campus) in Toronto, Ontario, Canada."
         },
         {
           question: "What's a hackathon?",
@@ -33,35 +33,14 @@ const FAQ = () => {
             "We welcome all students from underrepresented gender groups (i.e., women and gender-diverse students) who either live or attend school in North America. Only students who are currently enrolled in college/university, or have graduated within the past 12 months, are eligible to attend. You must bring a valid student or government-issued ID card for admission."
         },
         {
-          question: "Is ElleHacks in-person this year?",
+          question: "Is ElleHacks in-person or virtual?",
           answer:
             "Yes! ElleHacks will be in-person at York University in Toronto. There will be no option to participate in the event virtually."
         },
         {
-          question: "What in-person accommodations are available?",
-          answer: "This FAQ response is coming soon :)."
-        },
-        {
-          question: "When is the last day to sign up?",
-          answer: "This FAQ response is coming soon :)."
-        },
-        {
-          question: "Will there be swag?",
-          answer: "Yes!!"
-        },
-        {
-          question: "Do I need to find a team?",
+          question: "When will applications open?",
           answer:
-            "At ElleHacks, we welcome you to compete in teams of 1-4 students. ➝ If you already have a team, we’ll ask you to list their names during registration, the first day of the event. ➝ If you’d like to look for teammates later, we’ll open our Discord server a week early for you to search for a team. ➝ If you’d like help finding a team, we can match you with a team before or on the first day of the event."
-        },
-        {
-          question: "Can I start working on my project before the event?",
-          answer:
-            "No. All participants are required to start and complete their project during the hackathon. Any project that starts before the event will be disqualified."
-        },
-        {
-          question: "Can I submit a project I’ve used at another hackathon/school assignment/anywhere else?",
-          answer: "No."
+            "Applications are not open yet. We’ll share application dates and details closer to our scheduled event date. Follow our Instagram for the latest updates and announcements so you don’t miss when applications go live."
         },
         {
           question: "MLH Code of Conduct",
