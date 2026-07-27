@@ -61,9 +61,11 @@ body {
 .logo {
     width: min(5.94vw, 85.56px);
     height: min(7.43vw, 107px);
-    background: url('../../assets/hero/logo square.png') no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     opacity: 1;
+    flex-shrink: 0;
 }
 
 .MLHlogo {
